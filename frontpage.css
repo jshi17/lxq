@@ -1,0 +1,134 @@
+/*why can't i remove class*/
+html, body{
+    overflow-x: hidden; 
+    height: 100%;
+}
+
+.nav {
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 50px;
+}
+
+.nav .align-right {
+	text-align: right;
+}
+
+.nav h1 {
+	font-size: 18px;
+}
+
+.nav a:hover {
+	text-decoration: none;
+}
+
+.divider-top {
+	border-top: 1px solid #e2e2e2;
+}
+
+.divider-bottom {
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.header .carousel-inner{
+  width:100%;
+  max-height: 300px !important;
+}
+
+.header .carousel-inner img {
+  width: 100%;
+}
+
+.groups {
+	padding-bottom: 10px;
+}
+
+.groups .btn-circle {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 12px;
+	line-height: 1.42;
+	border-radius: 25px;
+}
+
+.groups p {
+	padding-top: 5px;
+}
+
+.groups i {
+	color: #FFF;
+}
+
+.groups .purple a {
+	background-color: #966FD6;
+	border-color: #966FD6;
+}
+
+.groups .blue a {
+	background-color: #779ECB;
+	border-color: #779ECB;
+}
+
+.groups .red a {
+	background-color: #FF6961;
+	border-color: #FF6961;
+}
+
+.groups .orange a {
+	background-color: #FFB347;
+	border-color: #FFB347;
+}
+
+.tasknav {
+	padding-bottom: 10px;
+}
+
+.tasks {
+	margin-bottom: 110px;
+}
+
+.task-preview h1 {
+	font-size: 17px;
+}
+
+.task-footer {
+	padding: 20px 0px 10px 0;
+}
+
+.task-footer p {
+	color: #A0A0A0;
+}
+
+/*Source: http://stackoverflow.com/questions/6127621/keeping-footer-at-the-bottom-of-window-on-site-that-scrolls-horizontal*/
+.footer {
+ 	height: 100px;
+ 	line-height: 50px;
+	width: 100%;
+	background-color: #EEE9E9;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	position: fixed;
+	bottom: 0pt;
+	left: 0pt;
+}   
+
+.footer .glyphicon {
+	font-size: 30px;
+	padding-top: 22px;
+}
+
+.footer a {
+	color: #000;
+}
+
+.footer a:hover {
+	text-decoration: none;
+}
+
+.footer p {
+  line-height: 0px;
+}
